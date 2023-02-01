@@ -22,6 +22,7 @@ import './widgets/soal_20.dart';
 import './widgets/soal_21.dart';
 import './widgets/soal_22.dart';
 import './widgets/soal_23.dart';
+import './widgets/soal_24.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Soal23(),
+      home: Soal24(),
     );
   }
 }
